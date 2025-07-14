@@ -1,0 +1,6 @@
+@AboneSepeti_HostAddress = http://localhost:5023
+
+GET {{AboneSepeti_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
