@@ -13,26 +13,24 @@ namespace AboneSepeti
     [Route("api/user")]
     public class UserController : ControllerBase
     {
-        private readonly Services services;
-        public UserController(Services _services)
+        private readonly UserServices services;
+        public UserController(UserServices _services)
         {
             services = _services;
         }
-        
-        [HttpPost("register-user")] 
+
+        [HttpPost("register-user")]
         public async Task<IActionResult> RegisterUser([FromBody] Register dto)
         {
             return Ok(await services.Register(dto, "User"));
         }
-        
+
         [HttpPost("register-admin")]
         public async Task<IActionResult> RegisterAdmin([FromBody] Register dto)
-            {
-                return Ok(await services.Register(dto, "Admin"));
-            }
+        {
+            return Ok(await services.Register(dto, "Admin"));
+        }
 
-
-        
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] Login login)
         {
@@ -59,7 +57,29 @@ namespace AboneSepeti
 
             var log = await services.RefreshToken(userId);
             return Ok(log);
+        }
 
+        [Authorize(Roles = "Admin")] // Sadece Admin rolü erişebilir
+        [HttpGet()]
+        public async Task<IActionResult> GetAll()
+        {
+            var users=await services.GetAllUser();
+            return Ok(users);
+        }
+
+        [Authorize(Roles = "User")] // Sadece User rolü erişebilir
+        [HttpPut("update")]
+        public async Task <IActionResult> UpdatePassword([FromBody] UpdatePassword updatePassword)
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier)
+              ?? User.FindFirstValue(JwtRegisteredClaimNames.Sub);
+            if (string.IsNullOrEmpty(userId))
+            {
+                return Unauthorized("User not found");
+            }
+
+            await services.UpdatePassword(userId, updatePassword);
+            return Ok("Parola güncellendi");
         }
        
         

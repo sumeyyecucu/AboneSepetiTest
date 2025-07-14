@@ -51,8 +51,9 @@ builder.Services.AddSingleton<IMongoClient>(sp =>
 
 builder.Services.Configure<JwtSettings>(
     builder.Configuration.GetSection("JwtSettings"));
-builder.Services.AddSingleton<Services>();
+builder.Services.AddSingleton<UserServices>();
 builder.Services.AddSingleton<TokenService>();
+builder.Services.AddSingleton<SubscriptionCompanyService>();
 
 builder.Services.AddControllers();
 var jwtSettings = builder.Configuration.GetSection("JwtSettings").Get<JwtSettings>();

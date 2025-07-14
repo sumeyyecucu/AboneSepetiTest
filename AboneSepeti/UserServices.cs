@@ -4,20 +4,20 @@ using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 
-public class Services
+public class UserServices
 {
     private readonly IMongoCollection<UserModel> _user;
     private readonly TokenService _tokenService;
 
-    public Services(IOptions<MongoDbSettings> settings, TokenService tokenService)
+    public UserServices(IOptions<MongoDbSettings> settings, TokenService tokenService)
     {
         var client = new MongoClient(settings.Value.ConnectionString);
         var database = client.GetDatabase(settings.Value.DatabaseName);
         _user = database.GetCollection<UserModel>("Users");
         _tokenService = tokenService;
     }
-    
-    public async Task<AuthResponse> Register(Register newUser,string role) 
+
+    public async Task<AuthResponse> Register(Register newUser, string role)
     {
         var existingUser = await _user.Find(u => u.PhoneNumber == newUser.PhoneNumber).FirstOrDefaultAsync();
         if (existingUser != null)
@@ -38,7 +38,7 @@ public class Services
 
 
         await _user.InsertOneAsync(user);
-        var accessToken = _tokenService.GenerateAccessToken(user.Id.ToString(), user.Role); 
+        var accessToken = _tokenService.GenerateAccessToken(user.Id.ToString(), user.Role);
         return new AuthResponse
         {
             AccessToken = accessToken,
@@ -102,8 +102,24 @@ public class Services
         };
 
     }
-   
+    public async Task<List<UserModel>> GetAllUser()
+    {
+        return await _user.Find(_ => true).ToListAsync();
+    }
+    public async Task UpdatePassword(string userId, UpdatePassword updatePassword)
+    {
+        var user = await _user.Find(u => u.Id == userId).FirstOrDefaultAsync();
+        if (user == null)
+            throw new Exception("Kullanıcı bulunamadı");
+
+        if (updatePassword.Password != updatePassword.ConfirmPassword)
+            throw new Exception("Şifreler eşleşmiyor");
+
+        user.PasswordHash = TokenService.Hash(updatePassword.Password);
+
+        var update = Builders<UserModel>.Update.Set(u => u.PasswordHash, user.PasswordHash);
+        await _user.UpdateOneAsync(u => u.Id == userId, update);
+    }
+
 
 }
-
-
