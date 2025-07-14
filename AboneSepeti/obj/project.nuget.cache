@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ew4xgW1mOqM=",
+  "dgSpecHash": "bGXQk18KVck=",
   "success": true,
-  "projectFilePath": "C:\\Users\\csume\\Desktop\\AboneSepeti\\AboneSepeti\\AboneSepeti.csproj",
+  "projectFilePath": "C:\\Users\\csume\\Documents\\GitHub\\AboneSepetiTest\\AboneSepeti\\AboneSepeti.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\csume\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\csume\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

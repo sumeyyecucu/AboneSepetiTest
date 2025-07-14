@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\csume\\Desktop\\AboneSepeti\\AboneSepeti\\AboneSepeti.csproj": {}
+    "C:\\Users\\csume\\Documents\\GitHub\\AboneSepetiTest\\AboneSepeti\\AboneSepeti.csproj": {}
   },
   "projects": {
-    "C:\\Users\\csume\\Desktop\\AboneSepeti\\AboneSepeti\\AboneSepeti.csproj": {
+    "C:\\Users\\csume\\Documents\\GitHub\\AboneSepetiTest\\AboneSepeti\\AboneSepeti.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\csume\\Desktop\\AboneSepeti\\AboneSepeti\\AboneSepeti.csproj",
+        "projectUniqueName": "C:\\Users\\csume\\Documents\\GitHub\\AboneSepetiTest\\AboneSepeti\\AboneSepeti.csproj",
         "projectName": "AboneSepeti",
-        "projectPath": "C:\\Users\\csume\\Desktop\\AboneSepeti\\AboneSepeti\\AboneSepeti.csproj",
+        "projectPath": "C:\\Users\\csume\\Documents\\GitHub\\AboneSepetiTest\\AboneSepeti\\AboneSepeti.csproj",
         "packagesPath": "C:\\Users\\csume\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\csume\\Desktop\\AboneSepeti\\AboneSepeti\\obj\\",
+        "outputPath": "C:\\Users\\csume\\Documents\\GitHub\\AboneSepetiTest\\AboneSepeti\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\csume\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -61,13 +61,7 @@ namespace AboneSepeti
             return Ok(log);
 
         }
-        [Authorize("Admin")] //Sadece Admin rolüne sahip kullanıcılar erişebilir
-        [HttpGet("get_users")]
-        public async Task<IActionResult> GetUsers()
-        {
-            var users = await services.GetUsers();
-            return Ok(users);
-        }
+       
         
         
     }

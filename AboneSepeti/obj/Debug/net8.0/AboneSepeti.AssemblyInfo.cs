@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AboneSepeti")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7148d63ce25ebfcd144b21be6b010d6bd4b7822")]
 [assembly: System.Reflection.AssemblyProductAttribute("AboneSepeti")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AboneSepeti")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
