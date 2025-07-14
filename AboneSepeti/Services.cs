@@ -17,7 +17,7 @@ public class Services
         _tokenService = tokenService;
     }
     
-    public async Task<AuthResponse> Register(Register newUser,string role = "User") 
+    public async Task<AuthResponse> Register(Register newUser,string role) 
     {
         var existingUser = await _user.Find(u => u.PhoneNumber == newUser.PhoneNumber).FirstOrDefaultAsync();
         if (existingUser != null)
@@ -38,7 +38,7 @@ public class Services
 
 
         await _user.InsertOneAsync(user);
-        var accessToken = _tokenService.GenerateAccessToken(user.Id.ToString(), user.Role); // sonra Id'yi alabilirsin
+        var accessToken = _tokenService.GenerateAccessToken(user.Id.ToString(), user.Role); 
         return new AuthResponse
         {
             AccessToken = accessToken,
@@ -102,10 +102,7 @@ public class Services
         };
 
     }
-    public async Task<List<UserModel>> GetUsers()
-    {
-        return await _user.Find(_ => true).ToListAsync();
-    }
+   
 
 }
 

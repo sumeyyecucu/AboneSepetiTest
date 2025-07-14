@@ -16,8 +16,7 @@ namespace AboneSepeti
         [DataType(DataType.PhoneNumber)]
         public string? PhoneNumber { get; set; }
         [DataType(DataType.Password)]
-        public string? Password { get; set; }
-        public string? PasswordHash { get; set; }
+         public string? PasswordHash { get; set; }
         public string? Role { get; set; } = "User";
         public string? RefreshToken { get; set; }
         public DateTime RefreshTokenExpireTime { get; set; }
