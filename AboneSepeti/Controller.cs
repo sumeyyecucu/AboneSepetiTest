@@ -18,13 +18,13 @@ namespace AboneSepeti
         {
             services = _services;
         }
-        [Authorize("User")]
-        [HttpPost("register-user")] //Sadece User rolüne sahip kullanıcılar erişebilir
+        
+        [HttpPost("register-user")] 
         public async Task<IActionResult> RegisterUser([FromBody] Register dto)
         {
             return Ok(await services.Register(dto, "User"));
         }
-        [Authorize("Admin")] //Sadece Admin rolüne sahip kullanıcılar erişebilir
+        
         [HttpPost("register-admin")]
         public async Task<IActionResult> RegisterAdmin([FromBody] Register dto)
             {
@@ -32,7 +32,7 @@ namespace AboneSepeti
             }
 
 
-        [Authorize] //Her iki rol de erişebilir
+        
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] Login login)
         {
