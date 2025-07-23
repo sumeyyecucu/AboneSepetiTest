@@ -1,0 +1,12 @@
+C:\Users\csume\RiderProjects\TestCase\TestCase.Entity\bin\Debug\net8.0\TestCase.Entity.deps.json
+C:\Users\csume\RiderProjects\TestCase\TestCase.Entity\bin\Debug\net8.0\TestCase.Entity.dll
+C:\Users\csume\RiderProjects\TestCase\TestCase.Entity\bin\Debug\net8.0\TestCase.Entity.pdb
+C:\Users\csume\RiderProjects\TestCase\TestCase.Entity\obj\Debug\net8.0\TestCase.Entity.csproj.AssemblyReference.cache
+C:\Users\csume\RiderProjects\TestCase\TestCase.Entity\obj\Debug\net8.0\TestCase.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\csume\RiderProjects\TestCase\TestCase.Entity\obj\Debug\net8.0\TestCase.Entity.AssemblyInfoInputs.cache
+C:\Users\csume\RiderProjects\TestCase\TestCase.Entity\obj\Debug\net8.0\TestCase.Entity.AssemblyInfo.cs
+C:\Users\csume\RiderProjects\TestCase\TestCase.Entity\obj\Debug\net8.0\TestCase.Entity.csproj.CoreCompileInputs.cache
+C:\Users\csume\RiderProjects\TestCase\TestCase.Entity\obj\Debug\net8.0\TestCase.Entity.dll
+C:\Users\csume\RiderProjects\TestCase\TestCase.Entity\obj\Debug\net8.0\refint\TestCase.Entity.dll
+C:\Users\csume\RiderProjects\TestCase\TestCase.Entity\obj\Debug\net8.0\TestCase.Entity.pdb
+C:\Users\csume\RiderProjects\TestCase\TestCase.Entity\obj\Debug\net8.0\ref\TestCase.Entity.dll

@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\TestCase.Contracts\TestCase.Contracts.csproj" />
+      <ProjectReference Include="..\TestCase.DataAccess\TestCase.DataAccess.csproj" />
+      <ProjectReference Include="..\TestCase.Entity\TestCase.Entity.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.18" />
+    </ItemGroup>
+
+</Project>

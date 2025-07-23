@@ -1,0 +1,11 @@
+C:\Users\csume\RiderProjects\TestCase\TestCase.Contracts\bin\Debug\net8.0\TestCase.Contracts.deps.json
+C:\Users\csume\RiderProjects\TestCase\TestCase.Contracts\bin\Debug\net8.0\TestCase.Contracts.dll
+C:\Users\csume\RiderProjects\TestCase\TestCase.Contracts\bin\Debug\net8.0\TestCase.Contracts.pdb
+C:\Users\csume\RiderProjects\TestCase\TestCase.Contracts\obj\Debug\net8.0\TestCase.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\csume\RiderProjects\TestCase\TestCase.Contracts\obj\Debug\net8.0\TestCase.Contracts.AssemblyInfoInputs.cache
+C:\Users\csume\RiderProjects\TestCase\TestCase.Contracts\obj\Debug\net8.0\TestCase.Contracts.AssemblyInfo.cs
+C:\Users\csume\RiderProjects\TestCase\TestCase.Contracts\obj\Debug\net8.0\TestCase.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\csume\RiderProjects\TestCase\TestCase.Contracts\obj\Debug\net8.0\TestCase.Contracts.dll
+C:\Users\csume\RiderProjects\TestCase\TestCase.Contracts\obj\Debug\net8.0\refint\TestCase.Contracts.dll
+C:\Users\csume\RiderProjects\TestCase\TestCase.Contracts\obj\Debug\net8.0\TestCase.Contracts.pdb
+C:\Users\csume\RiderProjects\TestCase\TestCase.Contracts\obj\Debug\net8.0\ref\TestCase.Contracts.dll
