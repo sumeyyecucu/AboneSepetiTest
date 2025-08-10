@@ -10,3 +10,4 @@ C:\Users\csume\RiderProjects\TestCase\TestCase.Entity\obj\Debug\net8.0\TestCase.
 C:\Users\csume\RiderProjects\TestCase\TestCase.Entity\obj\Debug\net8.0\refint\TestCase.Entity.dll
 C:\Users\csume\RiderProjects\TestCase\TestCase.Entity\obj\Debug\net8.0\TestCase.Entity.pdb
 C:\Users\csume\RiderProjects\TestCase\TestCase.Entity\obj\Debug\net8.0\ref\TestCase.Entity.dll
+C:\Users\csume\RiderProjects\TestCase\TestCase.Entity\obj\Debug\net8.0\TestCase.Entity.sourcelink.json

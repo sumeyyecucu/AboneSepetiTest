@@ -313,21 +313,12 @@
       "TestCase.Business/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.18",
-          "TestCase.Contracts": "1.0.0",
           "TestCase.DataAccess": "1.0.0",
           "TestCase.Entity": "1.0.0"
         },
         "runtime": {
           "TestCase.Business.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "TestCase.Contracts/1.0.0": {
-        "runtime": {
-          "TestCase.Contracts.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -336,12 +327,11 @@
         "dependencies": {
           "Microsoft.Extensions.Options.ConfigurationExtensions": "9.0.7",
           "MongoDB.Driver": "3.4.1",
-          "TestCase.Contracts": "1.0.0",
           "TestCase.Entity": "1.0.0"
         },
         "runtime": {
           "TestCase.DataAccess.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -352,7 +342,7 @@
         },
         "runtime": {
           "TestCase.Entity.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -611,11 +601,6 @@
       "hashPath": "zstdsharp.port.0.7.3.nupkg.sha512"
     },
     "TestCase.Business/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "TestCase.Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -12,7 +12,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\TestCase.Contracts\TestCase.Contracts.csproj" />
       <ProjectReference Include="..\TestCase.Entity\TestCase.Entity.csproj" />
     </ItemGroup>
 

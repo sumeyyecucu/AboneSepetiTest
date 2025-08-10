@@ -31,12 +31,10 @@ C:\Users\csume\RiderProjects\TestCase\TestCase.API\bin\Debug\net8.0\Swashbuckle.
 C:\Users\csume\RiderProjects\TestCase\TestCase.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\csume\RiderProjects\TestCase\TestCase.API\bin\Debug\net8.0\ZstdSharp.dll
 C:\Users\csume\RiderProjects\TestCase\TestCase.API\bin\Debug\net8.0\TestCase.Business.dll
-C:\Users\csume\RiderProjects\TestCase\TestCase.API\bin\Debug\net8.0\TestCase.Contracts.dll
 C:\Users\csume\RiderProjects\TestCase\TestCase.API\bin\Debug\net8.0\TestCase.DataAccess.dll
 C:\Users\csume\RiderProjects\TestCase\TestCase.API\bin\Debug\net8.0\TestCase.Entity.dll
 C:\Users\csume\RiderProjects\TestCase\TestCase.API\bin\Debug\net8.0\TestCase.Business.pdb
 C:\Users\csume\RiderProjects\TestCase\TestCase.API\bin\Debug\net8.0\TestCase.Entity.pdb
-C:\Users\csume\RiderProjects\TestCase\TestCase.API\bin\Debug\net8.0\TestCase.Contracts.pdb
 C:\Users\csume\RiderProjects\TestCase\TestCase.API\bin\Debug\net8.0\TestCase.DataAccess.pdb
 C:\Users\csume\RiderProjects\TestCase\TestCase.API\obj\Debug\net8.0\TestCase.API.csproj.AssemblyReference.cache
 C:\Users\csume\RiderProjects\TestCase\TestCase.API\obj\Debug\net8.0\TestCase.API.GeneratedMSBuildEditorConfig.editorconfig
@@ -47,11 +45,6 @@ C:\Users\csume\RiderProjects\TestCase\TestCase.API\obj\Debug\net8.0\TestCase.API
 C:\Users\csume\RiderProjects\TestCase\TestCase.API\obj\Debug\net8.0\TestCase.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\csume\RiderProjects\TestCase\TestCase.API\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\csume\RiderProjects\TestCase\TestCase.API\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\csume\RiderProjects\TestCase\TestCase.API\obj\Debug\net8.0\staticwebassets\msbuild.TestCase.API.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\csume\RiderProjects\TestCase\TestCase.API\obj\Debug\net8.0\staticwebassets\msbuild.build.TestCase.API.props
-C:\Users\csume\RiderProjects\TestCase\TestCase.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.TestCase.API.props
-C:\Users\csume\RiderProjects\TestCase\TestCase.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.TestCase.API.props
-C:\Users\csume\RiderProjects\TestCase\TestCase.API\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\csume\RiderProjects\TestCase\TestCase.API\obj\Debug\net8.0\scopedcss\bundle\TestCase.API.styles.css
 C:\Users\csume\RiderProjects\TestCase\TestCase.API\obj\Debug\net8.0\TestCase.79428D02.Up2Date
 C:\Users\csume\RiderProjects\TestCase\TestCase.API\obj\Debug\net8.0\TestCase.API.dll
@@ -59,3 +52,11 @@ C:\Users\csume\RiderProjects\TestCase\TestCase.API\obj\Debug\net8.0\refint\TestC
 C:\Users\csume\RiderProjects\TestCase\TestCase.API\obj\Debug\net8.0\TestCase.API.pdb
 C:\Users\csume\RiderProjects\TestCase\TestCase.API\obj\Debug\net8.0\TestCase.API.genruntimeconfig.cache
 C:\Users\csume\RiderProjects\TestCase\TestCase.API\obj\Debug\net8.0\ref\TestCase.API.dll
+C:\Users\csume\RiderProjects\TestCase\TestCase.API\bin\Debug\net8.0\TestCase.API.staticwebassets.endpoints.json
+C:\Users\csume\RiderProjects\TestCase\TestCase.API\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\csume\RiderProjects\TestCase\TestCase.API\obj\Debug\net8.0\TestCase.API.sourcelink.json
+C:\Users\csume\RiderProjects\TestCase\TestCase.API\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\csume\RiderProjects\TestCase\TestCase.API\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\csume\RiderProjects\TestCase\TestCase.API\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\csume\RiderProjects\TestCase\TestCase.API\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\csume\RiderProjects\TestCase\TestCase.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json

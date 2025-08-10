@@ -13,5 +13,4 @@ C:\Users\csume\RiderProjects\TestCase\TestCase.DataAccess\obj\Debug\net8.0\TestC
 C:\Users\csume\RiderProjects\TestCase\TestCase.DataAccess\obj\Debug\net8.0\refint\TestCase.DataAccess.dll
 C:\Users\csume\RiderProjects\TestCase\TestCase.DataAccess\obj\Debug\net8.0\TestCase.DataAccess.pdb
 C:\Users\csume\RiderProjects\TestCase\TestCase.DataAccess\obj\Debug\net8.0\ref\TestCase.DataAccess.dll
-C:\Users\csume\RiderProjects\TestCase\TestCase.DataAccess\bin\Debug\net8.0\TestCase.Contracts.dll
-C:\Users\csume\RiderProjects\TestCase\TestCase.DataAccess\bin\Debug\net8.0\TestCase.Contracts.pdb
+C:\Users\csume\RiderProjects\TestCase\TestCase.DataAccess\obj\Debug\net8.0\TestCase.DataAccess.sourcelink.json
